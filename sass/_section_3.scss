@@ -1,0 +1,36 @@
+
+/*===== section_3 =========*/
+
+.label {
+	min-height: 300px;
+	margin-top: 159px;
+	background-color: #FEF2F2;
+}
+
+/*.label__container {
+	min-height: 300px;
+	display: flex;
+	align-items: center;
+}*/
+
+.label__content {
+	padding: 100px 0;
+	
+}
+
+.label__text {
+	margin-bottom: 20px;
+}
+
+.label__items {
+	max-height: 51px;
+	max-width: 1172px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.label__item {
+	flex-wrap: wrap;
+	
+}

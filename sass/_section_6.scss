@@ -1,0 +1,59 @@
+/*=========== section_6 =========*/
+
+.careers {
+	width: 100%;
+	margin-top: 150px;
+	height: 742px;
+}
+
+.careers__container {
+	height: 100%;
+}
+
+.careers__title {
+	padding: 5px;
+	margin-bottom: 150px;
+	text-align: center;
+}
+
+.careers__table {
+	width: 100%;
+	margin: 0px auto;
+	widows: 1187px;
+	height: 544px;
+	text-align: left;
+}
+
+
+colgroup {
+	width: 100%;
+}
+
+col {
+	width: 33.3%;
+}
+
+th {
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 1.5;
+	color: #6B7280;
+	text-transform: uppercase;
+}
+
+td {
+	font-size: 16px;
+	line-height: 1.5;
+	color: #6B7280;
+}
+
+td span {
+	font-weight: 600;
+	font-size: 16px;
+	line-height: 24px;
+	color: #1F2937;
+}
+
+.company {
+	text-align: center;
+}

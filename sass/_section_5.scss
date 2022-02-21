@@ -1,0 +1,49 @@
+/*============= section_5 ===========*/
+
+.skills {
+	width: 100%;
+	margin-top: 150px;
+	height: 320px;
+}
+
+
+
+.scills__items {
+	max-width: 1250px;
+	height: 100%;
+	margin: 0px auto;
+	display: flex;
+	justify-content: space-between;
+}
+
+.scills__items-item {
+	width: 360px;
+	display: flex;
+	flex-flow: column;
+	align-items: center;
+}
+
+.scills__symbol {
+	width: 140px;
+	height: 140px;
+	border-radius: 6px;
+	background-color: #EEF2FF;
+
+}
+
+.symbol__link {
+	padding: 0 50px;
+	position: relative;
+	font-size: 32px;
+	top: 50px;
+}
+
+.scills__item-title {
+	margin-top: 40px;
+	margin-bottom: 20px;
+}
+
+.scills__item-text {
+	text-align: center;
+	color: #9CA3AF;
+}

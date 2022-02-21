@@ -1,0 +1,109 @@
+
+// =====Title===========
+
+h1 {
+	font-weight: 700;
+	font-size: 72px;
+	line-height: 1;
+	color: #1F2937;
+}
+
+h2 {
+	font-weight: 600;
+	font-size: 48px;
+	line-height: 48px;
+	color: #1F2937;
+}
+
+h3 {
+	font-weight: 600;
+	font-size: 30px;
+	line-height: 36px;
+	color: #374151;
+}
+
+
+h4 {
+	font-weight: 600;
+	font-size: 18px;
+	line-height: 28px;
+	color: #1F2937;
+
+}
+
+/*==============Text=====================*/
+
+
+
+
+/* ====================Button========== */
+
+.button {
+	padding: 12px 32px;
+	border-radius: 6px;
+	font-size: 18px;
+	line-height: 1.5;
+	margin: 10px;
+}
+
+.button-wite {
+	background: #fff;
+	border: solid 1px #3730A3;
+}
+
+.button-wite:hover {
+	background: #EEEBFF;
+	text-decoration: underline;
+
+}
+
+.button-blue {
+	background: #3730A3;
+	
+}
+
+.button-blue:hover {
+	background: #5b3ffa;
+	text-decoration: underline;
+	color: #fff;
+}
+
+.button-wite__link {
+	color: #3730A3;
+}
+
+.button-blue__link {
+	color: #fff;
+}
+
+/* PC */
+@media (max-width: 1440px) {
+	[class*="__container"] {
+		max-width: 1210px;
+	}
+}
+/* TABLET */
+@media (max-width: 991.98px) {
+	[class*="__container"] {
+		max-width: none;
+	}
+    h2 {
+        font-size: 36px;
+    }
+    h3 {
+        font-size: 30px;
+    }
+}
+/* MOBILE */
+@media (max-width: 767.98px) {
+	[class*="__container"] {
+		max-width: none;
+	}
+    .button {
+        padding: 6px 16px;
+        font-size: 14px;
+    }
+}
+/* MOBILE SMALL */
+@media (max-width: 479.98px) {
+}
