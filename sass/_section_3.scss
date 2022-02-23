@@ -19,7 +19,7 @@
 }
 
 .label__text {
-	margin-bottom: 20px;
+	padding-bottom: 20px;
 }
 
 .label__items {
@@ -31,6 +31,38 @@
 }
 
 .label__item {
-	flex-wrap: wrap;
+	padding: 5px;
 	
 }
+
+
+@media (max-width: 1150px) {
+	
+	.label {
+		margin-top: 100px;
+		
+	}
+}
+
+@media (max-width: 992px) {
+		.label__item img{
+		max-width: 130px;
+		
+	}
+	
+}
+@media (max-width: 910px) {
+	.label__items {
+		flex-flow: column;
+	}
+	.label__content {
+		padding: 0;
+			
+	}
+	.label__text {
+		padding: 5px 0;
+	}
+
+}
+@media (max-width: 767.98px) {}
+@media (max-width: 479.98px) {}
